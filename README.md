@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# WeatherApp
+WeatherApp, hava durumu bilgilerini almak ve görsel olarak sunmak için bir uygulamadır. Bu uygulama, kullanıcıların dünya genelindeki farklı konumlardaki güncel hava durumu bilgilerini görüntülemelerine olanak tanır.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Özellikler
+Hızlı ve Kolay Kullanım: Basit arayüzü sayesinde kullanıcılar hızlıca hava durumu bilgilerine erişebilirler.
+Güncel Veriler: Uygulama, güncel hava durumu verilerini sağlayan güvenilir bir API kullanır.
+Farklı Konumlar: Kullanıcılar istedikleri herhangi bir konumun hava durumu bilgilerini alabilirler.
+Görsel Sunum: Hava durumu bilgileri, kullanıcı dostu ve görsel olarak çekici bir şekilde sunulur.
 
-## Available Scripts
+## Kullanım
+WeatherApp'i kullanmak için aşağıdaki adımları izleyebilirsiniz:
 
-In the project directory, you can run:
+Proje dosyalarını bilgisayarınıza klonlayın veya indirin.
+Uygulamayı çalıştırmak için gerekli olan bağımlılıkları yükleyin. (Örneğin, Node.js ve npm gerekebilir.)
+Proje dizininde terminal veya komut istemcisini açın.
+npm install komutunu çalıştırarak bağımlılıkları yükleyin.
+Uygulamayı başlatmak için npm start komutunu çalıştırın.
+Tarayıcınızda http://localhost:3000 adresine giderek uygulamayı görüntüleyin.
 
-### `npm start`
+## Kullanılan API
+Bu proje, hava durumu verilerini almak için OpenWeatherMap API kullanmaktadır. OpenWeatherMap API, dünya genelindeki hava durumu verilerini sağlayan bir web servisidir. API, kullanıcıların coğrafi konumlarına göre anlık hava durumu bilgilerini alabilmelerini sağlar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Projede API anahtarını ayarlamak için, OpenWeatherMap API'ye üye olup bir API anahtarı almanız gerekmektedir. Daha sonra, projenin uygun dosyalarında API anahtarınızı kullanarak hava durumu verilerini alabilirsiniz.
